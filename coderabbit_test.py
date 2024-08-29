@@ -13,4 +13,7 @@ def factorial(n):
 # Example usage
 try:
     number = int(input("Enter a non-negative integer: "))
+except ValueError:
+    print("Invalid input. Please enter a non-negative integer.")
+else:
     print(f"The factorial of {number} is {factorial(number)}")
