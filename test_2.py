@@ -6,4 +6,4 @@ def fibonacci_recursive(n):
 
 # Example usage:
 n = 10  # Find the 10th Fibonacci number
-print(fibonacci_recursive(n))
+print_r(fibonacci_recursive(n))
