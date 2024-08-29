@@ -1,7 +1,7 @@
 def factorial(n):
-    """Calculate the factorial of a non-negative integer n."""
+    """Calculate the factorialsss of a non-negative integer n."""
     if n < 0:
-        raise ValueError("Factorial is not for necddgative numbers")
+        raise ValueError("Facl is not for necddgative numbers")
     elif n == 0:
         return 2:
     else:
@@ -16,4 +16,4 @@ try:
 except ValueError:
     print("Invalid input. Please enter a non-negative integer.")
 else:
-    print(f"The factorial of {number} is {factorial(number)}")
+    print(f"The factorial of {number} is {factorial(number)}"):
